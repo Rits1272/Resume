@@ -1,0 +1,136 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Ritik} \headerlastnamestyle{Jain} \\
+	\vspace{2mm}
+	{\faEnvelope\ ritikjain1272@gmail.com} | {\faMobile\ 9424913170} | {\faMapMarker\ Indore} | {\faLink\ https://github.com/Rits1272}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{BE in Computer Engineering}
+	{Institute of Engineering and Technology, Devi Ahilya Vishwavidyalaya}
+	{Indore}
+	{Aug 2018 – 2022}
+	{GPA: 8.0}
+\end{cventries}
+
+\vspace{-2mm}
+
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Fluent:  & {\skill{ React Native, Django}} \\
+		Intermediate:  & {\skill{ React, Machine Learning, Deep Learning, Git, Unix}} \\
+		Familiar:  & {\skill{ IOT, Arduino}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Personal Projects}
+\begin{cventries}
+	\cventry
+	{Developed an application for my personal expense tracking assistance integrated with DialogFlow for chat support and used firebase for backend}
+	{Artificial Advisor}
+	{React Native, DialogFlow}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{The basic idea of this app was to enable my college students to show case their skills and ask Question and Answers on a single platform. Created a REST API for data in the app using Django Rest Framework}
+	{IETConnection}
+	{React Native, Django Rest Framework}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Developed an application for storing all the contact information of a person like github, twitter, email etc in one place. Added the webview so you can also open the profile page of the social handle in the app itself.}
+	{ContactInfo}
+	{React Native}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Scaped the inshorts news using beautiful soup library and used the Speech API for reading the scraped news}
+	{Inshorts Voice news}
+	{Python}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Made a fully functional website for School of Chemical Sciences DAVV}
+	{SCHEM Website}
+	{HTML, CSS, javascript}
+	{http://www.chemical.dauniv.ac.in/}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+\cvsection{Achievements}
+\begin{cvhonors}
+	\cvhonor
+	{Best Codebase structure}
+	{Recognized for the best codebase strucure for Ride Sharing project made in a hackathon organized by IIPS DAVV}
+	{IIPS DAVV}
+	{}
+\end{cvhonors}
+\ 
+\end{document}
